@@ -11,7 +11,6 @@ Diving into the graphic design world after a couple years of not knowing what I 
 Today I am continuing to grow as a graphic designer and am excited to expand my range of knowledge.
 
 - **[info@millanvilla.ca](mailto:info@millanvilla.ca)**
-- [Facebook](https://www.facebook.com/jennifer.millanvilla)
 - [Vimeo](https://vimeo.com/user56681165)
 - [Behance](https://www.behance.net/mill085696b6)
 - [Github](https://github.com/JennMV)
