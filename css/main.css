@@ -1,7 +1,76 @@
 html {
   font-family: "Comfortaa";
+  background-color: #f1f2f2;
+}
+
+/*div {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+*/
+
+h1 {
+  color: #fff;
 }
 
 .img-flex {
   width: 100%;
+}
+
+.piece {
+  background-color: #fff;
+}
+
+header {
+  background-image: url("../images/placeholder-2by3.svg");
+  margin: 0;
+  height: 100vh;
+}
+
+nav a {
+  color: #fff;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-decoration: none;
+}
+
+p {
+  font-family: "Open Sans Condensed";
+}
+
+.halfsize-pics {
+  width: 49%;
+  display: inline-block;
+}
+
+.about-me {
+  background-color: #a7a9ac;
+}
+
+.portfolio {
+  background-color: #6d6e71;
+}
+
+.portfolio-h2 {
+  color: #fff;
+}
+
+.contact {
+  background-color: #414042;
+}
+
+.contact-h2 {
+  color: #fff;
+}
+
+@media only screen and (min-width: 90em) {
+
+  header {
+    background-image: url("../images/placeholder-3by2.svg");
+  }
+
+  .contact-content {
+    width: 33%;
+  }
+
 }
