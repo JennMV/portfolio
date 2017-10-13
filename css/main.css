@@ -60,13 +60,38 @@ p {
   color: #fff;
 }
 
+@media only screen and (min-width: 38em) {
+
+  .me {
+    float: left;
+    width: 45%;
+  }
+
+  .about-content {
+    float: right;
+    width: 50%;
+  }
+
+  .halfsize-pics {
+    width: 48.5%;
+  }
+
+}
+
 @media only screen and (min-width: 90em) {
 
   header {
     background-image: url("../images/placeholder-3by2.svg");
   }
 
-  .contact-content {
+  .me {
+    float: left;
+    width: 55%;
+  }
+
+  .about-content {
+    float: right;
+    width: 45%;
   }
 
 }
