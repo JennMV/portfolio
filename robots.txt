@@ -1,0 +1,4 @@
+Sitemap: https://millanvilla.ca/sitemap.xml
+
+User-agent: *
+Disallow:
