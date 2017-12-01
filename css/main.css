@@ -14,42 +14,19 @@ h1 {
 }
 
 header {
-  /* background-image: url("../images/placeholder-2by3.svg"); */
   margin: 0;
-  height: 100vh;
+  height: 70vh;
   position: relative;
 }
 
 .box {
   width: 100%;
-  height: 100%;
+  height: 70%;
   position: absolute;
 }
 
 .grey {
   background: #ccc;
-}
-
-nav a {
-  color: #fff;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  text-decoration: none;
-  display: block;
-  float: left;
-  text-align: center;
-}
-
-nav > ul > li > a > #home {
-  float: right;
-}
-
-.nav {
-  background-color: #000;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 
 .wordmark {
@@ -60,8 +37,34 @@ p {
   font-family: "Open Sans Condensed";
 }
 
+.nav {
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #000;
+}
 
+.nav a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #fff;
+}
 
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: grey;
+
+}
 
 
 /* -----------PORTFOLIO */
@@ -70,12 +73,17 @@ p {
   background-color: #fff;
 }
 
-.piece {
-  width: 30%;
+.work {
   display: inline-block;
 }
 
+.work-thumb {
 
+}
+
+.work-description {
+
+}
 
 
 
@@ -95,7 +103,34 @@ p {
 
 
 
+/* -----------MEDIA QUERIES */
+
 @media only screen and (min-width: 38em) {
+  nav a {
+    color: #fff;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-decoration: none;
+    display: block;
+    float: left;
+    text-align: center;
+  }
+
+  nav > ul > li > a > #home {
+    float: right;
+  }
+
+  .nav {
+    background-color: #000;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
 
 
 }
