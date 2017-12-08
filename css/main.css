@@ -3,7 +3,12 @@ html {
   background-color: #fff;
 }
 
-/* -----------HOME/HEADER */
+main {
+  position: relative;
+  z-index: 2;
+}
+
+/* ----------HEADER */
 
 .name {
   width: 25%;
@@ -15,18 +20,31 @@ html {
 
 header {
   margin: 0;
-  height: 70vh;
   position: relative;
 }
 
-.box {
+.header-home {
+  height: 50vh;
+}
+
+.box-home {
   width: 100%;
-  height: 70%;
+  height: 50%;
+  position: absolute;
+}
+
+.box-other {
+  width: 100%;
+  height: 15%;
   position: absolute;
 }
 
 .red {
   background: #f15b5b;
+}
+
+.logo {
+  display: inline-block;
 }
 
 .wordmark {
@@ -43,6 +61,11 @@ p {
   padding: 0;
   list-style-type: none;
   background-color: #000;
+  /*    position: absolute;   */
+  z-index: 10;
+  right: 15px;
+  top: 0px;
+  padding: 15px 13px;
 }
 
 .nav a {
@@ -66,7 +89,8 @@ p {
   display: inline-block;
   width: 40px;
   position: absolute;
-  right: 0;
+  right: 15px;
+  top: 30px;
 }
 
 .nav-open,
@@ -76,7 +100,7 @@ p {
 }
 
 .nav-check:checked ~ .nav-label {
-  background-color: grey;
+  background-color: #ff
 }
 
 .nav-close {
@@ -94,11 +118,17 @@ p {
 
 /* -----------PORTFOLIO */
 
-.portfolio {
+.work {
   background-color: #fff;
+  padding: 0;
+  position: relative;
+  z-index: 4;
+  margin-bottom: 340px;
+  box-shadow: 0 30px 60px 20px rgba(0,0,0,.2);
+
 }
 
-.work {
+.work-entry {
   display: inline-block;
 }
 
@@ -107,30 +137,86 @@ p {
 }
 
 .work-description {
+  text-decoration: none;
+}
+
+.hero-project {
+  width: 100%;
+}
+
+.hero-fixed {
+  position: relative;
+  padding: 8em 0;
+}
+
+.deliver {
 
 }
 
+.deliver-box {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+}
+
+.deliver-box li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+
+
+/* -----------ABOUT ME
 
 
 /* -----------CONTACT */
-
-.contact {
-  background-color: #414042;
-  color: #fff;
-}
-
 
 
 
 /* -----------FOOTER */
 
+.pre-footer {
+  background-color: #414042;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  padding: 4.5em 0;
+  bottom: 0;
+  z-index: 1;
+  margin-bottom: 45px;
+  background-blend-mode: overlay;
+  float: left;
+  display: block;
+  width: 100%;
+}
 
+footer {
+  position: fixed;
+  bottom: 0;
+  float: left;
+  display: block;
+  width: 100%;
+  background-color: #ccc;
+}
+
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
 
 
 
 /* -----------MEDIA QUERIES */
 
 @media only screen and (min-width: 38em) {
+  header {
+    height: 100vh;
+  }
+
+  .box {
+    height: 100%;
+  }
+
   nav a {
     color: #fff;
     margin-top: 1em;
@@ -155,10 +241,14 @@ p {
 
 }
 
+
+
 @media only screen and (min-width: 60em) {
 
 
 }
+
+
 
 @media only screen and (min-width: 90em) {
 
