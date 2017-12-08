@@ -25,17 +25,19 @@ header {
 
 .header-home {
   height: 50vh;
+  z-index: 6;
 }
 
 .box-home {
   width: 100%;
   height: 50%;
   position: absolute;
+  z-index: 5
 }
 
 .box-other {
   width: 100%;
-  height: 15%;
+  height: 17%;
   position: absolute;
 }
 
@@ -125,7 +127,6 @@ p {
   z-index: 4;
   margin-bottom: 340px;
   box-shadow: 0 30px 60px 20px rgba(0,0,0,.2);
-
 }
 
 .work-entry {
@@ -138,10 +139,12 @@ p {
 
 .work-description {
   text-decoration: none;
+  list
 }
 
 .hero-project {
   width: 100%;
+  background-color: #fff;
 }
 
 .hero-fixed {
@@ -149,25 +152,44 @@ p {
   padding: 8em 0;
 }
 
-.deliver {
+.delivered {
 
 }
 
-.deliver-box {
+.delivered-box {
   background-color: #000;
   color: #fff;
   margin: 0;
 }
 
-.deliver-box li {
+.delivered-box li {
   display: inline-block;
   list-style-type: none;
 }
 
+.portfolio-piece {
+  position: relative;
+  z-index: 4;
+  background-color: #fff;
+  padding-bottom: 1em;
+  margin-bottom: 340px;
+  box-shadow: 0 30px 60px 20px rgba(0,0,0,.2);
+}
+
+.project-content {
+  padding: 0 1em 0 1em;
+}
 
 
-/* -----------ABOUT ME
 
+
+/* -----------ABOUT ME */
+ .about {
+   background-color: #fff;
+   position: relative;
+   z-index: 4;
+   padding: 0 1em 0 1em;
+ }
 
 /* -----------CONTACT */
 
