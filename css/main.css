@@ -213,7 +213,7 @@ ul {
    position: relative;
    z-index: 4;
    padding: 3em 1em 20em 1em;
-   margin-bottom: 300px;
+   margin-bottom: 375px;
    box-shadow: 0 30px 60px 20px rgba(0,0,0,.2);
  }
 
@@ -324,6 +324,11 @@ footer {
 
   .arrow-right {
     width: 10%;
+  }
+
+/*ABOUT*/
+  .about {
+    margin-bottom: 425px;
   }
 
 }
@@ -443,6 +448,11 @@ footer {
     padding-right: 5em;
   }
 
+/*ABOUT*/
+  .about {
+    margin-bottom: 500px;
+  }
+
 /*FOOTER*/
   .pre-footer {
     margin-bottom: 56px;
@@ -473,46 +483,58 @@ footer {
     padding-right: 10em;
   }
 
+/*ABOUT*/
+  .about {
+    margin-bottom: 525px;
+  }
+
+  .my-photo {
+    width: 100%;
+  }
+
 }
 
 
 @media only screen and (min-width: 2550px) {
-  /*PORTFOLIO*/
-    /*on home page*/
-    .work {
-      margin-bottom: 525px;;
-    }
+/*PORTFOLIO*/
+  /*on home page*/
+  .work {
+    margin-bottom: 525px;;
+  }
 
-    /*on portfolio page*/
-    .project-content {
-      padding-left: 20em;
-      padding-right: 20em;
-    }
+  /*on portfolio page*/
+  .project-content {
+    padding-left: 20em;
+    padding-right: 20em;
+  }
 
-    .arrow-left {
-      width: 5%;
-    }
+  .arrow-left {
+    width: 5%;
+  }
 
-    .project-title {
-      width: 100%;
-    }
+  .project-title {
+    width: 100%;
+  }
 
-    .arrow-right {
-      width: 5%;
-    }
+  .arrow-right {
+    width: 5%;
+  }
 
-    .photos {
+  .photos {
 
-    }
+  }
 
-    .photo-1-1 {
-      width: 25%;
-      display: inline-block;
-    }
+  .photo-1-1 {
+    width: 25%;
+    display: inline-block;
+  }
 
-    .photo-3-2 {
-      width: 37%;
-      display: inline-block;
-    }
+  .photo-3-2 {
+    width: 37%;
+    display: inline-block;
+  }
+
+/*ABOUT*/
+
 
 }
