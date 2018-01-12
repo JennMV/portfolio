@@ -204,13 +204,16 @@ ul {
 }
 
 
+
 /* -----------ABOUT ME */
+
+
 .about {
    background-color: #fff;
    position: relative;
    z-index: 4;
    padding: 3em 1em 20em 1em;
-   margin-bottom: 340px;
+   margin-bottom: 300px;
    box-shadow: 0 30px 60px 20px rgba(0,0,0,.2);
  }
 
@@ -227,18 +230,6 @@ ul {
   position: absolute;
   bottom: 50px;
   right: 50px;
-}
-
-
-
-/* -----------CONTACT */
-.contact-me {
-  background-color: #fff;
-  position: relative;
-  z-index: 4;
-  padding: 3em 1em 5em 1em;
-  margin-bottom: 340px;
-  box-shadow: 0 30px 60px 20px rgba(0,0,0,.2);
 }
 
 
@@ -288,6 +279,7 @@ footer {
 
   .project-title {
     top: 53%;
+  }
 
 }
 
@@ -327,6 +319,7 @@ footer {
 
   .project-title {
     top: 52%;
+
   }
 
   .arrow-right {
@@ -481,6 +474,7 @@ footer {
   }
 
 }
+
 
 @media only screen and (min-width: 2550px) {
   /*PORTFOLIO*/

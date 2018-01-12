@@ -14,29 +14,64 @@
 </head>
 <body>
 
-  <div class="box-other red"></div>
+  <header class="header-home push-0">
 
-  <header class="push-0">
-    <div class="text-center push-1-2">
-      <img src="images/jennifer-millan-villa.svg" class="name text-center pad-t">
+
+    <div class="box">
+      <div class="portfolio-header">
+        <div class="project-title text-center">
+          <h1>JENNIFER MILLAN-VILLA</h1>
+        </div>
+      </div>
     </div>
 
+    <div class="logo push-1-2">
+      <img class="name text-center pad-t" src="images/jennifer-millan-villa.svg">
+    </div>
+
+<!--toggle nav-->
     <input type="checkbox" class="nav-check hide-custom-input" id="nav-check">
     <!-- This is the button we’d click to open/close the navigation -->
     <label class="nav-label" for="nav-check">
       <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
       <img class="nav-close" src="images/nav-icon-close.svg" alt="Close Navigation">
     </label>
-    <nav class="nav">
-      <ul>
-        <li><a href="portfolio-projects.html">PORTFOLIO</a></li>
+    <nav class="nav-toggle pin-t">
+      <ul class="push-0">
+        <li><a href="index.html" id="home">MILLANVILLA</a></li>
         <li><a href="about-designer.html">ME</a></li>
-        <li><a href="contact-designer.html">CONTACT</a></li>
-        <li><a href="creative-home.html" id="home">MILLANVILLA</a></li>
+        <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
+<!--end toggle nav-->
+
+<!--main nav-->
+    <div class="nav">
+      <nav id="nav">
+        <ul class="list-group-inline push-0">
+          <li class="island-1-8">
+            <a id="home" class="gutter-1-2 pad-t-1-4 pad-b-1-4 mega" href="index.html">MILLANVILLA</a>
+          </li>
+          <li class="island-1-8">
+            <a class="gutter-1-2 pad-t-1-4 pad-b-1-4 mega" href="about-designer.html">ME</a>
+          </li>
+          <li class="middle-logo-li island-1-8">
+            <img class="middle-logo gutter-1-2 pad-t-1-4 pad-b-1-4" src="images/jennifer-millan-villa.svg" alt="design, art, freelance, graphic, fun, Ottawa">
+          </li>
+          <li class="island-1-8">
+            <a class="gutter-1-2 pad-t-1-4 pad-b-1-4 mega" href="#portfolio">PORTFOLIO</a>
+          </li>
+          <li class="island-1-8">
+            <a class="gutter-1-2 pad-t-1-4 pad-b-1-4 mega" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+<!--end main nav-->
   </header>
 
+<!--about-->
   <main>
     <div class="about">
       <div class="about-top">
@@ -72,25 +107,42 @@
       </div>
     </div>
   </main>
+<!--about end-->
 
+<!--footer-->
   <footer class="footer unit xs-1 s-1 m-1 l-1">
+    <div class="pre-footer grid pad-t text-center">
+      <div class="unit gutter xs-1 s-1 m-1 l-1">
+        <h2>HELLO!</h2>
+        <p class="gutter push-0">Let’s collaborate and create together!</p>
+        <p>Send me your requests, questions, or sweet little love notes, whatever you want.</p>
+        <btn class="btn btn-ghost push"><a href="mailto:info@millanvilla.ca">COME CHAT</a></btn>
+        <p>info@millanvilla.ca</p>
+      </div>
+    </div>
+
     <div class="text-center">
       <ul class="list-group-inline push-0 pad-t-1-2 pad-b-1-2">
         <li class="vimeo gutter">
           <a class="icon i-24" href="https://vimeo.com/user56681165">
-            <img src="images/placeholder-circle.svg" alt="">
+            <img src="images/vimeo.svg" alt="">
           </a>
         </li>
         <li class="behance gutter">
           <a class="icon i-24" href="https://www.behance.net/mill085696b6">
-            <img src="images/placeholder-circle.svg" alt="">
+            <img src="images/behance.svg" alt="">
           </a>
         </li>
         <li class="email gutter">
-          <a class="icon i-24" href="mailto:info@millanvilla.ca">
-            <img src="images/placeholder-circle.svg" alt="">
+          <a class="icon i-24" href="https://www.instagram.com/jmv.design/">
+            <img src="images/instagram.svg" alt="">
           </a>
         </li>
       </ul>
     </div>
   </footer>
+
+  <div id="contact"></div>
+<!--footer end-->
+</body>
+</html>
