@@ -148,22 +148,22 @@ ul {
 
 /*on portfolio page*/
 .project-header {
-  vertical-align: middle;
   z-index: 7;
-  position: absolute;
-  top: 50%;
-  width: 100%;
   text-align: center;
 }
 
 .arrow-left {
+  position: absolute;
+  left: .5em;
+  top: 50%;
   width: 15%;
-  margin: 0;
 }
 
 .arrow-right {
+  position: absolute;
+  right: .5em;
+  top: 50%;
   width: 15%;
-  margin: 0;
 }
 
 .the-arrows {
@@ -173,8 +173,9 @@ ul {
 .project-title {
   text-align: center;
   color: #fff;
-  width: 50%;
-  margin-right: 0;
+  position: absolute;
+  top: 51.5%;
+  width: 100%;
 }
 
 .delivered-box {
@@ -194,7 +195,7 @@ ul {
   z-index: 4;
   background-color: #fff;
   padding-bottom: 1em;
-  margin-bottom: 340px;
+  margin-bottom: 380px;
   box-shadow: 0 30px 60px 20px rgba(0,0,0,.2);
 }
 
@@ -250,7 +251,7 @@ ul {
   text-align: center;
   position: fixed;
   padding-top: 6em;
-  padding-bottom: 3em;
+  padding-bottom: 2.5em;
   bottom: 0;
   z-index: 1;
   margin-bottom: 45px;
@@ -279,7 +280,14 @@ footer {
 /* -----------MEDIA QUERIES */
 
 @media only screen and (min-width: 25em) {
+/*PORTFOLIO*/
+  /*on portfolio page*/
+  .portfolio-piece {
+    margin-bottom: 370px;
+  }
 
+  .project-title {
+    top: 53%;
 
 }
 
@@ -291,7 +299,7 @@ footer {
   }
 
   .logo {
-    text-align: center;
+    left: 20%;
   }
 
   .overview {
@@ -302,12 +310,35 @@ footer {
     padding-left: 1em;
   }
 
+/*PORTFOLIO*/
+  /*on home page*/
+  .work {
+    margin-bottom: 400px;
+  }
+
+  /*on portfolio page*/
+  .portfolio-piece {
+    margin-bottom: 400px;
+  }
+
+  .arrow-left {
+    width: 10%;
+  }
+
+  .project-title {
+    top: 52%;
+  }
+
+  .arrow-right {
+    width: 10%;
+  }
+
 }
 
 
 
 @media only screen and (min-width: 60em) {
-/*HEADER*/
+/*HOME*/
   .header-home {
     height: 75vh;
   }
@@ -356,10 +387,11 @@ footer {
   }
 
 /*PORTFOLIO*/
+  /*on home page*/
   .work {
     padding: 1em;
     padding-top: 1em;
-    margin-bottom: 450px;
+    margin-bottom: 475px;
   }
 
   .work-entry {
@@ -391,6 +423,31 @@ footer {
     display: none;
   }
 
+  /*on portfolio page*/
+  .portfolio-piece {
+    margin-bottom: 450px;
+    padding-bottom: 2em;
+  }
+
+  .arrow-left {
+    left: 1em;
+    width: 10%;
+  }
+
+  .project-title {
+    top: 53%;
+  }
+
+  .arrow-right {
+    right: 1em;
+    width: 10%;
+  }
+
+  .project-content {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
 /*FOOTER*/
   .pre-footer {
     margin-bottom: 56px;
@@ -400,8 +457,36 @@ footer {
 
 
 @media only screen and (min-width: 90em) {
+/*HOME*/
   .middle-logo-li {
     width: 10%;
   }
+
+/*PORTFOLIO*/
+  /*on home page*/
+  .work {
+    margin-bottom: 500px;;
+  }
+
+  /*on portfolio page*/
+  .portfolio-piece {
+    margin-bottom: 500px;
+  }
+
+  .project-content {
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+
+}
+
+@media only screen and (min-width: 2550px) {
+  /*PORTFOLIO*/
+    /*on home page*/
+    .work {
+      margin-bottom: 525px;;
+    }
+
+    /*on portfolio page*/
 
 }
