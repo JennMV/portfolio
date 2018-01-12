@@ -14,27 +14,52 @@
 </head>
 <body>
 
-  <div class="box-other red"></div>
+  <div class="box grey"></div>
 
-  <header class="push-0">
-    <div class="text-center push-1-2">
-      <img src="images/jennifer-millan-villa.svg" class="name text-center pad-t">
+  <header class="header-home push-0">
+
+    <div class="text-center logo push-1-2">
+      <img class="name text-center pad-t" src="images/jennifer-millan-villa.svg">
     </div>
 
+<!--toggle nav-->
     <input type="checkbox" class="nav-check hide-custom-input" id="nav-check">
     <!-- This is the button we’d click to open/close the navigation -->
     <label class="nav-label" for="nav-check">
       <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
       <img class="nav-close" src="images/nav-icon-close.svg" alt="Close Navigation">
     </label>
-    <nav class="nav">
-      <ul>
+    <nav class="nav-toggle pin-t">
+      <ul class="push-0">
         <li><a href="portfolio-projects.html">PORTFOLIO</a></li>
         <li><a href="about-designer.html">ME</a></li>
+        <li><img class="" src="images/jennifer-millan-villa.svg" alt="design, art, freelance, graphic, fun, Ottawa"></li>
         <li><a href="contact-designer.html">CONTACT</a></li>
         <li><a href="creative-home.html" id="home">MILLANVILLA</a></li>
       </ul>
     </nav>
+<!--end toggle nav-->
+
+<!--main nav-->
+    <div class="nav">
+      <nav id="nav">
+        <ul class="list-group-inline push-0">
+          <li class="island-1-8">
+            <a id="home" class="gutter-1-2 pad-t-1-4 pad-b-1-4 mega" href="creative-home.html">MILLANVILLA</a>
+          </li>
+          <li class="island-1-8">
+            <a class="gutter-1-2 pad-t-1-4 pad-b-1-4 mega" href="about-designer.html">ME</a>
+          </li>
+          <li class="island-1-8">
+            <a class="gutter-1-2 pad-t-1-4 pad-b-1-4 mega nav-portfolio" href="portfolio-projects.html">PORTFOLIO</a>
+          </li>
+          <li class="island-1-8">
+            <a class="gutter-1-2 pad-t-1-4 pad-b-1-4 mega" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+<!--end main nav-->
   </header>
 
   <main>
@@ -78,7 +103,7 @@
       <div class="unit xs-1 s-1 m-1 l-1">
         <h2>HEY!</h2>
         <p class="gutter">Let's collaborate and create together!</p>
-        <btn class="btn btn-ghost push"><a href="contact-designer.html">TALK TO MEEE</a></btn>
+        <btn class="btn btn-ghost push"><a href="contact-designer.html">COME CHAT!</a></btn>
       </div>
     </div>
   </main>
